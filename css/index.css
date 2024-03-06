@@ -1,0 +1,159 @@
+body {
+  background-color: #d9e1e8;
+  color: #282c37;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  font-family: "M PLUS 2", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.5em;
+}
+
+/* First Section */
+#wrapper1 {
+  margin-top: 12%;
+}
+
+#text_greetings {
+  font-size: 2em;
+  font-weight: 900;
+}
+#text_intro {
+  font-size: 1.6em;
+}
+
+#intro_cont {
+  text-align: justify;
+}
+
+#resume_btn {
+  display: flex;
+  margin: auto;
+
+  background-color: #2b90d9;
+  color: #282c37;
+  font-weight: 900;
+  font-size: 0.8em;
+  font-family: "M PLUS 2", sans-serif;
+  box-shadow: 0.1em 0.1em;
+}
+#resume_btn:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+#resume_btn:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+/* Second Section */
+#wrapper2 {
+  margin-top: 16%;
+}
+
+#text_portfolio {
+  font-size: 1.8em;
+  margin-bottom: 9%;
+}
+
+.text_links {
+  padding-top: 0.5em;
+}
+.text_links:hover {
+  color: #2b90d9;
+  font-size: 1.05em;
+}
+
+@media all and (max-width: 992px) {
+  #box3 {
+    order: 1;
+  }
+  #box4 {
+    order: 2;
+  }
+
+  #box5 {
+    order: 4;
+  }
+
+  #box6 {
+    order: 3;
+  }
+  #box7 {
+    order: 5;
+  }
+  #box8 {
+    order: 6;
+  }
+}
+
+#ul1,
+#ul2,
+#ul3 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#description {
+  text-align: justify;
+}
+
+/* Third Section */
+#text_skills {
+  font-size: 1.8em;
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+
+#box_skills {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Fourth Section */
+#text_work {
+  font-size: 1.8em;
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+
+@media all and (max-width: 992px) {
+  #path_1 {
+    order: 1;
+  }
+  #path_2 {
+    order: 3;
+  }
+
+  #path_3 {
+    order: 2;
+  }
+
+  #path_4 {
+    order: 4;
+  }
+}
+
+/* Fifth Section */
+#outro {
+  margin-top: 12%;
+  margin-bottom: 5%;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#outro_email {
+  color: #2b90d9;
+}
+
+/* Footer */
+#copyright {
+  color: #9baec8;
+  font-size: 0.8em;
+}
+
+.icons:hover {
+  text-shadow: 2px 2px 3px #2b90d9;
+}
